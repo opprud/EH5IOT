@@ -1,10 +1,12 @@
-# 2_ADXL345_spi
+# 2_EI_data_forwarder_adxl345
 
-A Particle project named 2_ADXL345_spi
+A Particle project for capturing data and transmitting them on the serial port, for the edgeimpulse data forwarder to be able to inport these into a project in edgeimpulse studio
+This project reads data from an ADXL345 accelerometer connected on i2c, feel frre to modify it to read data from your sensor.
 
-## Welcome to your project!
+## Using the data forwarder
+See [EI docs](https://docs.edgeimpulse.com/docs/edge-impulse-cli/cli-data-forwarder) on how to use the dataforwarder from `edge-impulse-cli`
 
-Every new Particle project is composed of 3 important elements that you'll see have been created in your project directory for 2_ADXL345_spi.
+Every new Particle project is composed of 3 important elements that you'll see have been created in your project directory 
 
 #### ```/src``` folder:  
 This is the source folder that contains the firmware files for your project. It should *not* be renamed. 
