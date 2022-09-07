@@ -9,6 +9,7 @@ int led = D7; // The on-board LED
 
 /**
  * @brief Webhook response handler, splits incoming data separated by '~' and prints
+ * response from: https://api.energidataservice.dk/datastore_search?resource_id=powersystemrightnow&limit=1
  * Response template is {{#result}}{{#records}}{{OffshoreWindPower}}~{{OnshoreWindPower}}~{{SolarPower}}{{/records}}{{/result}}
  * @param event
  * @param data
